@@ -3,22 +3,20 @@ from room import Room
 
 def room_info():
     room_map = {
-        'outside':  Room("Outside Cave Entrance",
-                         "North of you, the cave mount beckons"),
+        'outside':  Room("the outside of Lambda School",
+                         "The only way to enter is go go up."),
 
-        'foyer':    Room("Foyer", """Dim light filters in from the south. Dusty
-passages run north and east."""),
+        'foyer':    Room("the Foyer", """You have made it inside. You see light streaming
+from both north and east."""),
 
-        'overlook': Room("Grand Overlook", """A steep cliff appears before you, falling
-into the darkness. Ahead to the north, a light flickers in
-the distance, but there is no way across the chasm."""),
+        'overlook': Room("the Balcony", """You can see a beautiful view of trees and nature, but no diary. Ahead to the north you see a light, but there is no way to get there. 
+        You must go back to the foyer."""),
 
-        'narrow':   Room("Narrow Passage", """The narrow passage bends here from west
-to north. The smell of gold permeates the air."""),
+        'narrow':   Room("the Narrow Passage", """The narrow passage bends here from west
+to north. The smell of musty paper that could be a notebook permeates the air."""),
 
-        'treasure': Room("Treasure Chamber", """You've found the long-lost treasure
-chamber! Sadly, it has already been completely emptied by
-earlier adventurers. The only exit is to the south."""),
+        'treasure': Room("the Treasure Chamber", """You've found the missing diary! You have found the missing password to unlock access to the best
+        website in the world and thus landed yourself a job at Google. Way to go tech stud!"""),
     }
 
 

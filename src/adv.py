@@ -4,11 +4,14 @@ from room_info import room_info
 
 room_map = room_info()
 
-player = Player("Harry Potter", room_map["outside"])
+name = input("Please enter your name to get started on your journey:  ")
+player = Player(name, room_map["outside"])
+print(f"{player.name}, you are currently at {player.room.name}")
 
 
 while True:
-    print(player.room.name)
+    print(
+        f" you are currently at {player.room.name}, {player.room.description}")
 
     user_input = input(
         "Please choose from the following to play: 1) move in directions n,s,e,w 2) p for pickup 3) q for quit   ")
